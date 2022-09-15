@@ -1,0 +1,139 @@
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #10002b !important;
+	font-family: 'Zilla Slab', serif !important;
+}
+
+
+.nav-link {
+	color: white; !important;
+}
+
+
+
+.navbar-brand {
+	color: white; !important;
+}
+
+
+a.nav-link:hover {
+	background-color: #10002b;
+}
+
+.bg-image {
+	background-image:url(./images/bg.jpg);
+  	background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+
+}
+
+.front-bg {
+	background-color: rgba(10, 0, 100, 0.5);
+	opacity: 1rem;
+	min-height: 50vh;
+}
+
+
+.title {
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 220px;
+	font-size: 4rem;
+
+}
+
+.subtitle {
+	color: white;
+	text-align: center;
+	font-size: 2rem;
+}
+
+
+.bg-custom {
+	background-color: #10002b;
+}
+
+
+
+.btn {
+	margin-top: 30px;
+}
+
+
+.about {
+	color: white;
+	margin-top: 70px;
+	padding-top: 70px;
+	text-align: center;
+	font-size: 3rem;
+}
+
+
+.myphoto {
+	margin-top: 10px;
+}
+
+.myname {
+	margin-top: 20px;
+}
+
+
+.aboutme {
+	text-align: center;
+	font-size: 20px;
+}
+
+
+.bg-project-custom {
+	background-color: #4f518c;
+}
+
+
+.project {
+	color: white;
+	margin-top: 70px;
+	padding-top: 70px;
+	text-align: center;
+	font-size: 3rem;
+}
+
+
+.card-bg-custom {
+	background-color: #10002b;
+}
+
+
+.card-title {
+	font-weight: bold;
+	font-size: 25px;
+} 
+
+.contactpage {
+	text-align: center;
+	font-size: 20px;
+}
+
+
+.contact {
+	color: white;
+	margin-top: 70px;
+	padding-top: 70px;
+	text-align: center;
+	font-size: 3rem;
+}
+
+.form-group {
+	margin-top: 20px;
+}
+
+
+#background-form {
+	background-color: #4f518c !important;
+}
+
