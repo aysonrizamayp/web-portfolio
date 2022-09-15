@@ -43,6 +43,7 @@ a.nav-link:hover {
 	color: white;
 	text-align: center;
 	margin-top: 0px;
+	margin-right: 0px !important;
 	padding-top: 220px;
 	font-size: 4rem;
 
