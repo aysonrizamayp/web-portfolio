@@ -18,7 +18,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Zilla+Slab:wght@500&display=swap" rel="stylesheet">
 
-
 	<!-- Bootsrap CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
@@ -26,130 +25,131 @@
 
 <body>
 
-	<!-- NAVBAR START -->
+	<header>
+<!-- NAVBAR START -->
 		<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #280659;">
-			  <a class="navbar-brand font-weight-bold" id="ahover" href="#">RMPA</a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			  </button>
-			  <div class="collapse navbar-collapse" id="navbarNav">
-			    <ul class="navbar-nav ml-auto">
-			    	<li class="nav-item active">
-			        <a class="nav-link font-weight-bold" href="#homepage">Home</a>
-			      	</li>
-			      	<li class="nav-item active">
-			        <a class="nav-link font-weight-bold" href="#aboutpage">About</a>
-			      	</li>
-			      	<li class="nav-item active">
-			        <a class="nav-link font-weight-bold" href="#projectpage">Projects</a>
-			      	</li>
-			      	<li class="nav-item active">
-			        <a class="nav-link font-weight-bold" href="#contactpage">Contacts</a>
-			      	</li>
-			    </ul>
-			  </div>
-			</nav>
+			 
+			  <a class="navbar-brand font-weight-bold" id="ahover" href="#homepage">RMPA</a>
+			  	
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			   		<span class="navbar-toggler-icon"></span>
+			  	</button>
+			  
+			  	<div class="collapse navbar-collapse" id="navbarNav">
+			    	<ul class="navbar-nav ml-auto">
+			    		<li class="nav-item active">
+			        		<a class="nav-link font-weight-bold" href="#homepage">Home</a>
+			      		</li>
+			      		<li class="nav-item active">
+			        		<a class="nav-link font-weight-bold" href="#aboutpage">About</a>
+			      		</li>
+			      		<li class="nav-item active">
+			       			<a class="nav-link font-weight-bold" href="#projectpage">Projects</a>
+			      		</li>
+			      		<li class="nav-item active">
+			        		<a class="nav-link font-weight-bold" href="#contactpage">Contacts</a>
+			      		</li>
+			    	</ul>
+			  	</div>
+		</nav>
 
-	<!-- NAVBAR END -->
+<!-- NAVBAR END -->
+	</header>
 
 	<main>
 
 		<!-- LANDING PAGE START -->
 		<div class="col-auto p-0" id="homepage">	
 			<section class="bg-image min-vh-100" >
+			    
 			    <div class="front-bg container-fluid text-center min-vh-100">
-			        <div class="container text-center">
-
+			        <div class="container text-center" data-aos="fade-up" data-aos-duration="2000">
 			            <h1 class="title font-weight-bold">RIZA MAY P. AYSON</h1>
 			            <h2 class="subtitle font-weight-bold">Developer and IT Instructor
 			            </h2>
 
 			            	<a class="text-decoration-none" target="_blank" href="mailto:aysonrizamayp@gmail.com">
 			                    <img class="mr-3" src="./images/gm.png" width="50" data-toggle="tooltip" data-placement="top" title="" data-original-title="gmail">
-			                          </a>
+			                </a>
 
-			                   <a class="text-decoration-none" target="_blank" href="https://gitlab.com/aysonrizamayp">
-			                           <img class="mr-3" src="./images/gt.png" width="40" data-toggle="tooltip" data-placement="top" title="" data-original-title="gitLab">
-			                          </a>
-
-			                   <a class="text-decoration-none" target="_blank" href="https://goo.gl/maps/NTpqjc6mka5xDa679">
-			                           <img class="mr-3" src="./images/mp.png" width="40" data-toggle="tooltip" data-placement="top" title="" data-original-title="location">
-			                          </a>
+			                <a class="text-decoration-none" target="_blank" href="https://gitlab.com/aysonrizamayp">
+			                    <img class="mr-3" src="./images/gt.png" width="40" data-toggle="tooltip" data-placement="top" title="" data-original-title="gitLab">
+			                </a>
+			                
+			                <a class="text-decoration-none" target="_blank" href="https://goo.gl/maps/NTpqjc6mka5xDa679">
+			                    <img class="mr-3" src="./images/mp.png" width="40" data-toggle="tooltip" data-placement="top" title="" data-original-title="location">
+			                </a>
 			        </div>
-			        			<a href="#aboutpage" class="btn btn-primary">Know More</a>      	
+			        		<a href="#aboutpage" class="btn btn-primary"  data-aos="fade-up" data-aos-duration="2000">Know More</a>      	
 				</div>             		
 			</section>
 		</div>
-	<!-- LANDING PAGE END -->
+
+<!-- LANDING PAGE END -->
 
 	<!-- ABOUT START -->
 		<section class="min-vh-100">
-			<h1 class="about font-weight-bold" id="aboutpage">About Me
-			</h1>
-				<div data-aos="zoom-in">	
-					<div class="container-fluid content-center bg-custom text-light">
-						<img src="./images/me.jpg" alt="Profile Picture of a beautiful person" width="200" class="myphoto rounded mx-auto d-block">
+			<h1 class="about font-weight-bold" id="aboutpage">About Me</h1>	
+				<div class="container-fluid content-center bg-custom text-light">
+					<img src="./images/me.jpg" alt="Profile Picture of a beautiful person" width="200" class="myphoto rounded mx-auto d-block" data-aos="flip-down"data-aos-duration="1000">
 
-						<h1 class="myname text-center font-weight-bold">Riza May Ayson</h1>
-						<h3 class="myjob text-center">Developer and IT Instructor
-							</h3>
-							<div class="aboutme row mt-4 container-fluid">
-								<div class="offset-md-2 col-md-8">
-									<p>
-										I am passionate about learning new technologies and teaching.
-										I’m a graduate of Bachelor of Science in information technology at Quezon City university. 
-										I used to be a working student. I have experience working as a Customer Service Representative and a Team Leader while finishing my degree. I have eight years and 6 months of BPO experience in total. I am currently pursuing my career in the IT industry as a developer and an IT instructor.
-									</p>
-								</div>
-							</div>
+					<h1 class="myname text-center font-weight-bold"data-aos="flip-up">Riza May Ayson</h1>
+					<h3 class="myjob text-center" data-aos="flip-up">Developer and IT Instructor</h3>
+							
+					<div class="aboutme row mt-4 container-fluid">
+						<div class="content-center col-sm-2 col-md-8 col-lg-10 mx-auto" data-aos="fade-down" data-aos-duration="2000">
+							<p>
+								I am passionate about learning new technologies and teaching.
+								I’m a graduate of Bachelor of Science in information technology at Quezon City university. 
+								I used to be a working student. I have experience working as a Customer Service Representative and a Team Leader while finishing my degree. I have eight years and 6 months of BPO experience in total. I am currently pursuing my career in the IT industry as a developer and an IT instructor.
+							</p>
+						</div>
 					</div>
 				</div>
 		</section>
 
-	<!-- ABOUT END -->
+<!-- ABOUT END -->
 
 	<!-- PROJECTS START -->
 
 		<section class="bg-project-custom text-light min-vh-100" id="projectpage">
-				<h1 class="project font-weight-bold" id="project">My Projects</h1>
-					<div data-aos="zoom-in">
-					<div class="d-lg-flex justify-content-center text-center p-md-5">
-						<!-- SUNSET PROJECT CARD START -->
-							<div class="card-bg-custom col-lg-4 mb-5 mb-lg-0 mx-2">
-								<div class="card-body">
-									<img src="./images/proj1.jpg" class="card-img-top width-50" alt="Project Image" height="150" class="rounded mx-auto d-block">
-									<h5 class="card-title mt-3">SUNSET PROJECT</h5>
-								
-									<p class="card-text">
-											Sunsets are symbols of peace, harmony, and the promise of renewal and a great reminder to rest and reset our hearts and minds at the end of the day.
-									</p>
+			<h1 class="project font-weight-bold" id="project">My Projects</h1>
+				<div class="d-lg-flex justify-content-center text-center p-md-5">
+				
+				<!-- SUNSET PROJECT CARD START -->
+					<div class="card-bg-custom col-lg-4 mb-5 mb-lg-0 mx-auto">
+						<div class="card-body" data-aos="flip-left">
+						<img src="./images/proj1.jpg" class="card-img-top width-50" alt="Project Image" height="150" class="rounded mx-auto d-block">
+						<h5 class="card-title mt-3">SUNSET PROJECT</h5>		
+						<p class="card-text">
+								Sunsets are symbols of peace, harmony, and the promise of renewal and a great reminder to rest and reset our hearts and minds at the end of the day.
+						</p>
+
+						<a href="https://unsplash.com/photos/OHeGaKMVUUE" target="_blank" class="btn btn-dark" style="background-color: #4f518c">View Project
+						</a>			
+						</div>
+					</div>
+
+				<!-- SUNSET PROJECT CARD END -->
+
+					<!-- LAKESCAPE PROJECT CARD START -->
+					<div class="card-bg-custom col-lg-4 mb-5 mb-lg-0 mx-auto">
+						<div class="card-body" data-aos="flip-up">
+							<img src="./images/proj2.jpg" class="card-img-top width-50" alt="Project Image" height="150" class="rounded mx-auto d-block">
+							<h5 class="card-title mt-3">LAKESCAPE PROJECT</h5>
 									
-									<a href="https://unsplash.com/photos/OHeGaKMVUUE" target="_blank" class="btn btn-dark" style="background-color: #4f518c">View Project
-									</a>
-								</div>
-							</div>
+							<p class="card-text">
+									In winter the snowfall enhances the beauty of  and gives the whole white stretch of lake a strange peaceful and tranquil effect.
+							</p>
+								<a href="https://unsplash.com/photos/oH-3vcgGP5E" target="_blank" class="btn btn-dark" style="background-color: #4f518c">View Project
+								</a>
+						</div>
+					</div>
+					<!-- LAKESCAPE PROJECT CARD END -->
 
-						<!-- SUNSET PROJECT CARD END -->
-
-								<!-- LAKESCAPE PROJECT CARD START -->
-							<div class="card-bg-custom col-lg-4 mb-5 mb-lg-0 mx-2">
-								<div class="card-body">
-									<img src="./images/proj2.jpg" class="card-img-top width-50" alt="Project Image" height="150" class="rounded mx-auto d-block">
-									<h5 class="card-title mt-3">LAKESCAPE PROJECT</h5>
-									
-									<p class="card-text">
-											In winter the snowfall enhances the beauty of  and gives the whole white stretch of lake a strange peaceful and tranquil effect.
-
-									</p>
-									<a href="https://unsplash.com/photos/oH-3vcgGP5E" target="_blank" class="btn btn-dark" style="background-color: #4f518c">View Project
-									</a>
-								</div>
-							</div>
-						<!-- LAKESCAPE PROJECT CARD END -->
-
-						<!-- MOUNTAIN PROJECT CARD START -->
-							<div class="card-bg-custom col-lg-4 mb-5 mb-lg-0 mx-2">
-								<div class="card-body">
+					<!-- MOUNTAIN PROJECT CARD START -->
+							<div class="card-bg-custom col-lg-4 mb-5 mb-lg-0 mx-auto">
+								<div class="card-body" data-aos="flip-right">
 									<img src="./images/proj3.jpg" class="card-img-top width-50" alt="Project Image" height="150" class="rounded mx-auto d-block">
 									<h5 class="card-title mt-3">MOUNTAIN PROJECT</h5>
 										
@@ -161,9 +161,7 @@
 									<a href="https://unsplash.com/photos/BKAaLmT0tIs" target="_blank" class="btn btn-dark" style="background-color: #4f518c">View Project
 									</a>
 								</div>
-							</div>
-								<!-- MOUNTAIN PROJECT CARD END -->
-							
+					<!-- MOUNTAIN PROJECT CARD END -->					
 		</section>
 
 	<!-- PROJECTS END -->
@@ -171,62 +169,65 @@
 	<!-- CONTACTS START -->
 		<section class="min-vh-100">
 			<h1 class="contact font-weight-bold" id="contactpage">Contact Me</h1>
-			<div class="d-lg-flex justify-content-center text-center p-md-0">
+				<div class="d-lg-flex justify-content-center text-center p-md-0">
+					<div class="card bg-warning col-md-8 col-lg-10 mx-auto text-left" id="background-form">
+					<form>
+					
+						<div class="form-group" data-aos="flip-down">
+						<label for="name">Name</label>
+						<input type="name" class="form-control" id="name" placeholder="Your Name" aria-describedby="nameHelp">
+						</div>
+								
+						<div class="form-group" data-aos="flip-down">
+						<label for="email">Email address</label>
+						<input type="email" class="form-control" id="email" placeholder="name@example.com" aria-describedby="emailHelp">
+						</div>
+								
+						<div class="form-group" data-aos="flip-down">
+						<label for="number">Contact Number</label>
+						<input type="number" class="form-control" id="number" placeholder="+63 900 000 0000" aria-describedby="numberHelp">
+						</div>
 
-				<div class="card bg-warning col-sm-12 col-md-8 col-lg-8 col-xl-4" id="background-form">
+						<div class="form-group" data-aos="flip-down">
+						<label for="textarea">Message</label>
+						<textarea class="form-control" id="textarea" rows="3">
+						</textarea>
+						</div>
 
-				<form>
-					<div class="form-group">
-							<label for="name">Name</label>
-							<input type="name" class="form-control" id="name" placeholder="Your Name" aria-describedby="nameHelp">
-							</div>
-							
-							<div class="form-group">
-							<label for="email">Email address</label>
-							<input type="email" class="form-control" id="email" placeholder="name@example.com" aria-describedby="emailHelp">
-							</div>
-							
-							<div class="form-group">
-							<label for="number">Contact Number</label>
-							<input type="number" class="form-control" id="number" placeholder="+63 900 000 0000" aria-describedby="numberHelp">
-							</div>
-
-					<div class="form-group">
-							<label for="textarea">Message</label>
-							<textarea class="form-control" id="textarea" rows="3">
-							</textarea>
-					</div>
-
-		<!-- Button trigger modal -->
-						<button type="button" class="btn btn-dark" style="background-color: #2b2d42;" data-toggle="modal" data-target="#exampleModal" id="send">Send
+	<!-- Button trigger modal -->
+						<button type="button" class="btn btn-dark" data-aos="flip-down" style="background-color: #2b2d42;" data-toggle="modal" data-target="#exampleModal" id="send">Send
 						</button>
 
-						<!-- Modal -->
+					<!-- Modal -->
 						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 							<div class="modal-dialog">
-									<div class="modal-content">
-											<div class="modal-header">
-											 <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for reaching us!</h5>
-											 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											 <span aria-hidden="true">&times;</span>
-											</button>
-											</div>
-											<div class="modal-body text-dark">
-											            Message Successfully Sent!
-											</div>
-											<div class="modal-footer">
-											 <button type="button" class="btn btn-secondary" style="background-color: #2b2d42" data-dismiss="modal">Close</button>
-											</div>
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for reaching us!</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
 									</div>
+									<div class="modal-body text-dark">
+														            Message Successfully Sent!
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" style="background-color: #2b2d42" data-dismiss="modal">Close</button>
+									</div>
+								</div>
 							</div>
 						</div>
-			</form>
+					</form>
+			
 
 	<!-- CONTACTS END -->
 
 	</main>
-			
 
+	<footer>
+            <p class="footer">© 2022 RMPA. All Rights Reserved.</p>
+	</footer>
+			
 
 	<!-- AOS JS -->
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

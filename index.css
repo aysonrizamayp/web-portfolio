@@ -1,7 +1,12 @@
+<!-- TO GOD BE ALL THE GLORY -->
+
 
 html {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
+	text-align: center !important;
+	text-align: center !important;
+
 }
 
 body {
@@ -15,14 +20,13 @@ body {
 }
 
 
-
 .navbar-brand {
 	color: white; !important;
 }
 
 
 a.nav-link:hover {
-	background-color: #10002b;
+	background-color: #4f518c;
 }
 
 .bg-image {
@@ -89,6 +93,8 @@ a.nav-link:hover {
 .aboutme {
 	text-align: center;
 	font-size: 20px;
+	margin-left: 2px !important;
+
 }
 
 
@@ -143,5 +149,15 @@ a.nav-link:hover {
 
 #send {
 	margin-bottom: 25px;
+}
+
+
+.footer {
+	background-color: #4f518c;
+	color: white;
+	margin: 2px;
+	padding: 5px;
+	font-size: 1rem;
+	text-align: center;
 }
 
